@@ -31,12 +31,7 @@
 	</properties>
 	<dependencies>
 	
-	<distributionManagement>
-	<repository>
-		<id>nexus</id>
-		<url>http://localhost:8081/repository/spring-releases/</url>
-	</repository>
-	</distributionManagement>
+	
 
 
 
@@ -51,6 +46,13 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <url>http://localhost:8081/repository/spring-releases/</url>
+        </repository>
+    </distributionManagement>
 
 	<build>
 		<plugins>
